@@ -1,21 +1,16 @@
-class India:
-    def Language(self):
-        print("Language in India is English and Hindi")
-    def Capital(self):
-        print("Capital of India is Delhi")
-    def Type(self):
-        print("India is a Developing Countary")
-class USA:
-    def Language(self):
-        print("Language in USA is English")
-    def Capital(self):
-        print("Capital of USA is Washington D.C.")
-    def Type(self):
-        print("USA is a Developed Countary")
-t = India()
-u = USA()
+class BMW:
+    def Fuel(self):
+        print("Fuel of BMW is petrol")
+    def Speed(self):
+        print("Speed of BMW is 270 KM/PH")
+class Ferrari:
+    def Fuel(self):
+        print("Fuel of Ferrari is Disel")
+    def Speed(self):
+        print("Speed of Ferrari is 300 KM/PH")
+t = BMW()
+u = Ferrari()
 
 for i in (t, u):
-    i.Capital()
-    i.Language()
-    i.Type()
+    i.Fuel()
+    i.Speed()
